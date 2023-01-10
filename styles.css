@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header-links {
+    display: flex;
+    gap: 12px;
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+li {
+    list-style-type: none;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 200px 100px 200px;
+}
+
+.one-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    color: white;
+}
+
+.one-subtext {
+    font-size: 15px;
+    color: grey;
+}
+
+.one-img {
+    width: 400px;
+}
+
+.one-button {
+    background-color: blue;
+    color: white;
+    padding: 9px 13px;
+    border: none;
+    border-radius: 14px;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.two-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    padding-top: 80px;
+    gap: 15px;
+}
+
+.two-cards-sin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.three {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.three-quote {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.three-thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.four {
+    padding: 50px 200px;
+    margin: 20px;
+}
+
+.action {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 14px;
+}
+
+.four-main {
+    font-size: 24px;
+    color: white;
+}
+
+.four-subtext {
+    font-size: 19px;
+    color: grey;
+}
+
+.four-button {
+    padding: 9px 16px;
+    margin: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 12px;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
